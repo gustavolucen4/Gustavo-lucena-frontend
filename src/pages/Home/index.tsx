@@ -36,7 +36,7 @@ function Home() {
     }
 
     async function handleLike(postId: string) {
-        const [post, ...rest] = posts.filter((post) => post.id === postId);
+        const [post] = posts.filter((post) => post.id === postId);
 
         try {
             let newPost: Post;

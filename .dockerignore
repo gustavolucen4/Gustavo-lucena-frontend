@@ -1,0 +1,7 @@
+# Comentários são ignorados
+.git
+.gitignore
+node_modules/
+npm-debug.log
+.env
+dist/

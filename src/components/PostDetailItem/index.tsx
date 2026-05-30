@@ -1,7 +1,7 @@
 import { FormEvent, useEffect, useState } from 'react'
 import { Post } from "../../models/Post";
 import { likePost } from "../../services/Posts";
-import { getAuthHeader, getUserEmail, getUserId } from "../../services/auth";
+import { getAuthHeader, getUserId } from "../../services/auth";
 import PostItem from "../PostItem";
 import Text from "../Text";
 import api from '../../services/api';

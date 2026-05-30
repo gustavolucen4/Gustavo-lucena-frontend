@@ -21,7 +21,7 @@ function Dropzone({ onFileUploaded }: DropzoneProps) {
         [onFileUploaded]
     );
 
-    const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
+    const { getRootProps, getInputProps } = useDropzone({ onDrop });
 
     return (
         <div className="flex mt-2 cursor-pointer border-zinc-500" {...getRootProps()}>
